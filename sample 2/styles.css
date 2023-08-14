@@ -1,0 +1,214 @@
+/* Reset and general styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Elegant font */
+    line-height: 1.6;
+    background-color: #e1f5fe; /* Sky blue background */
+}
+
+/* Header */
+header {
+    background-color: #486480; /* Dark blue header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-title {
+    font-family: 'Pacifico', cursive; /* Handwriting font for title */
+    font-size: 32px;
+}
+
+/* ... (Other styles remain the same) ... */
+
+/* About Section */
+.about {
+    background-color: #f3f8fb; /* Light gray about section */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* Serif font for titles */
+}
+
+.about-text {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ... (Other styles remain the same) ... */
+
+
+.projects {
+    background-color: #ffffff; /* White projects section */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.project {
+    background-color: #f3f8fb; /* Light gray project background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif; /* Serif font for project titles */
+}
+
+.project-description {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.contact {
+    background-color: #1976d2; /* Dark blue contact section */
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* Serif font for contact title */
+}
+
+.contact-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Projects Section */
+.projects {
+    background-color: #ffffff; /* White projects section */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* Serif font for section titles */
+    color: #333; /* Dark text color */
+}
+
+.filter-buttons {
+    margin-top: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1976d2; /* Dark blue button background */
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Font for buttons */
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #135ba4; /* Darker blue on hover */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.projects {
+    background-color: #ffffff; 
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* Serif font for section titles */
+    color: #333; /* Dark text color */
+}
+
+.filter-buttons {
+    margin-top: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1976d2; /* Dark blue button background */
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Font for buttons */
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #135ba4; /* Darker blue on hover */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a{ 
+    color: #88fefb;
+    background-color: #1976d2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+
+.contact-text a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-text a:hover {
+    color: #135ba4; 
+}
+ul{
+margin-right: 3%;
+}
+
+
+
+
+
+
